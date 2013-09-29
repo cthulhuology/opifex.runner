@@ -1,6 +1,6 @@
 {
 	"author": "David Goehrig",
-	"name": "Opifex.Runner",
+	"name": "opifex.runner",
 	"license" : "MIT",
 	"description": "Runs shell commands from AMQP",
 	"version": "0.0.1",
@@ -10,7 +10,7 @@
 	"main": "./lib/Runner.coffee",
 	"bin": {},
 	"dependencies": {
-		"Opifex" : "latest"
+		"opifex" : "0.0.2"
 	},
 	"devDependencies": {},
 	"optionalDependencies": {},
