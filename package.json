@@ -3,20 +3,19 @@
 	"name": "opifex.runner",
 	"license" : "MIT",
 	"description": "Runs shell commands from AMQP",
-	"version": "0.0.2",
+	"version": "0.0.4",
 	"repository": {
 		"url": "http://github.com/cthulhuology/opifex.runner"
 	},
 	"main": "./lib/Runner.coffee",
 	"bin": {},
 	"dependencies": {
-		"opifex" : "0.0.4"
+		"opifex" : ">=0.0.9"
 	},
 	"devDependencies": {},
 	"optionalDependencies": {},
 	"engines": {
-		"node": "*",
-		"coffee": "*"
+		"node": ">=0.10.0",
 	}
 }
 
